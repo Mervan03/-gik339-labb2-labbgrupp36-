@@ -2,7 +2,7 @@ const checkbox = document.getElementById('divStyle');
 
 const TextFields = document.querySelectorAll('.textfield');
 
-let pressButton = document.querySelector('button');
+let pressButton = document.getElementsByTagName('button')[0];
 
 const EmptyBox = document.querySelector('#emptyBox');
 
